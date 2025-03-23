@@ -1,0 +1,19 @@
+{
+  "name": "phaser-platformer",
+  "version": "1.0.0",
+  "description": "A simple platformer game using Phaser 3",
+  "main": "dist/game.js",
+  "scripts": {
+    "start": "npm run build && http-server . -p 8080",
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "dependencies": {
+    "phaser": "^3.70.0"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0"
+  }
+}
